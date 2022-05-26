@@ -73,3 +73,6 @@ crashlytics-build.properties
 cannonball game/Library/ArtifactDB
 [Ll]ibrary
 [Tt]emp/
+[Ll]ogs/
+*.log
+
