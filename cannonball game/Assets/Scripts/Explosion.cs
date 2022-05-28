@@ -21,7 +21,7 @@ public class Explosion : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Sobject")
+        if (other.gameObject.tag == "cannonball")
         {
             explode();
         }
