@@ -7,6 +7,9 @@ public class AimRotate : MonoBehaviour
     public float rotateSpeed = 50f;
     float xRotation = 0f;
     float yRotation = 0f;
+
+    private bool isCursorLocked;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +27,17 @@ public class AimRotate : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
 
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            isCursorLocked = !isCursorLocked;
+            if(isCursorLocked)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            else
+            {
+               Cursor.lockState = CursorLockMode.None;
+            }
+        }
     }
 }
