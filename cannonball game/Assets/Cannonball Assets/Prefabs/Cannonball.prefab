@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cannonballExplosion: {fileID: 3131961873656377820}
-  cannonballMass: 20
+  cannonballMass: 22
 --- !u!1001 &3771180398209728248
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -225,6 +225,7 @@ MonoBehaviour:
   orientation: {fileID: 575063858}
   moveSpeed: 100
   cannon_animator: {fileID: 6717152905644736877}
+  rotate: {fileID: 0}
 --- !u!114 &385933202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +244,8 @@ MonoBehaviour:
   cannonMass: 1
   powerText: {fileID: 0}
   power: 1
+  spawn: {x: 0, y: 0, z: 0}
+  spawnt: {fileID: 0}
   prefab: {fileID: 8835648571250715068, guid: b0176b3af209dba40b11b125bc1c62f2, type: 3}
 --- !u!1 &8817043845170145778
 GameObject:
@@ -318,13 +321,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8817043845701626139}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: 1.22, z: 4.46}
+  m_LocalRotation: {x: 0.078459024, y: -0, z: -0, w: 0.99691737}
+  m_LocalPosition: {x: 0.06, y: -0.041788653, z: 1.7596134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8817043845170145780}
-  m_Father: {fileID: 6657712729441777341}
-  m_RootOrder: 4
+  m_Father: {fileID: 6657997331617162959}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6659430170543944759
 PrefabInstance:
@@ -415,6 +418,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1051942958306038, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
   m_PrefabInstance: {fileID: 6659430170543944759}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &6657997331617162959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4214672131642104, guid: 68a39471bcf807f45aace3b120f318f0, type: 3}
+  m_PrefabInstance: {fileID: 6659430170543944759}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &558450091847862222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,4 +463,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateSpeed: 30
+  playerTransform: {fileID: 0}
   cannon_animator: {fileID: 6717152905644736877}
