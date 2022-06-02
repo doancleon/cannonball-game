@@ -15,11 +15,11 @@ C:/Users/doanc/OneDrive/Documents/GitHub/cannonball_game_ics161/cannonball game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54533
+54702
 Successfully changed project path to: C:/Users/doanc/OneDrive/Documents/GitHub/cannonball_game_ics161/cannonball game
 C:/Users/doanc/OneDrive/Documents/GitHub/cannonball_game_ics161/cannonball game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Users/doanc/OneDrive/Desktop/Unity Versions/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,102 +35,102 @@ Initialize mono
 Mono path[0] = 'C:/Users/doanc/OneDrive/Desktop/Unity Versions/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/doanc/OneDrive/Desktop/Unity Versions/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/doanc/OneDrive/Desktop/Unity Versions/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/doanc/OneDrive/Desktop/Unity Versions/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002964 seconds.
+Registered in 0.002971 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.665 seconds
+- Completed reload, in  0.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (665ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (507ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (186ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006555 seconds.
+Registered in 0.007559 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000029E70A21010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002850008E1D0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6ABE5EC0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000286F9DD73C0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6AE50720 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000286F9D9E010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6B49D030 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002850008E1D0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6F983230 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000286FE87F830 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6F64B020 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000286FEFF3030 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6AF3F660 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000286FF34DE20 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6F64B020 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000286FEFF3030 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6AF3F660 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000286FF34DE20 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6F87C230 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000286FF34DE20 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6B49D030 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002850008E1D0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6F9A0020 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000286FE811020 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E70912C40 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002850008E1D0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029E6AAD2020 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000286FF01B640 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
+- Completed reload, in  1.177 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1156ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (910ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (333ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -138,14 +138,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 70.6 MB.
 System memory in use after: 70.7 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 3.278300 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.045800 ms MarkObjects: 2.944700 ms  DeleteObjects: 0.084600 ms)
+Total: 3.096100 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.037400 ms MarkObjects: 2.807200 ms  DeleteObjects: 0.081400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,32 +159,271 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/DestroyAll.cs
-  artifactKey: Guid(0c984be4df88cc446add7fd04ee41d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DestroyAll.cs using Guid(0c984be4df88cc446add7fd04ee41d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3068fabf1e0e4e9e32b11b576a205aaf') in 0.031791 seconds 
-  Import took 0.034252 seconds .
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(6bf754f6daba98f438d69aeb09713f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(6bf754f6daba98f438d69aeb09713f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ebba76b1e83b6408814d5f8c9ec82e') in 0.015439 seconds 
+  Import took 0.017910 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.825829 seconds.
-  path: Assets/Scripts/CannonballDestruction.cs
-  artifactKey: Guid(90db8a41c33a42549b70ac2d43e5f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CannonballDestruction.cs using Guid(90db8a41c33a42549b70ac2d43e5f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab3944f39d0cdbb3fb1d67fe2fecd08') in 0.003194 seconds 
-  Import took 0.005792 seconds .
+  Time since last request: 20.991164 seconds.
+  path: Assets/Cannonball Assets/Prefabs/Cannonball.prefab
+  artifactKey: Guid(5929fbbd44f8ef44aba539a119f67184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cannonball Assets/Prefabs/Cannonball.prefab using Guid(5929fbbd44f8ef44aba539a119f67184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c1f732df87a2c7d1328e0735510f9e') in 0.120252 seconds 
+  Import took 0.123432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.999882 seconds.
-  path: Assets/Scripts/Explosion.cs
-  artifactKey: Guid(00671ed4e1d59b34d8e98f12db4aa9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Explosion.cs using Guid(00671ed4e1d59b34d8e98f12db4aa9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4a2a40c62df74a4e3e0dd35e65d15e') in 0.003302 seconds 
-  Import took 0.006006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.306286 seconds.
+  Time since last request: 0.000263 seconds.
   path: Assets/Cannonball Assets/Prefabs/PlayerEdwin.prefab
   artifactKey: Guid(6d8a0a8ddf64575409a5a3c3acde8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cannonball Assets/Prefabs/PlayerEdwin.prefab using Guid(6d8a0a8ddf64575409a5a3c3acde8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1e98c38904d58e865110fe69e4a69c') in 0.038275 seconds 
-  Import took 0.040942 seconds .
+Start importing Assets/Cannonball Assets/Prefabs/PlayerEdwin.prefab using Guid(6d8a0a8ddf64575409a5a3c3acde8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd21061cde89182c12ef65e65037424') in 0.007913 seconds 
+  Import took 0.010669 seconds .
+<<<<<<< Updated upstream
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Target Prefab/Target.prefab
+  artifactKey: Guid(b0176b3af209dba40b11b125bc1c62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Target Prefab/Target.prefab using Guid(b0176b3af209dba40b11b125bc1c62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc66d13cf3ba4bf2a27dda46fdeebfe3') in 0.011093 seconds 
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Cannonball Assets/Prefabs/Particle System.prefab
+  artifactKey: Guid(7e84f15e12009bf42bed4c56516a8a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cannonball Assets/Prefabs/Particle System.prefab using Guid(7e84f15e12009bf42bed4c56516a8a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed40080887cd0121e2526b7938778a') in 0.011515 seconds 
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Target Prefab/TargetCopy.prefab
+  artifactKey: Guid(eafc9450a7070ed408e4d49d9842ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Target Prefab/TargetCopy.prefab using Guid(eafc9450a7070ed408e4d49d9842ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8104cd3536726a9388ae40167cbc0547') in 0.009773 seconds 
+  Import took 0.012381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.720723 seconds.
+  path: Assets/cannon anim/defaultcannon.anim
+  artifactKey: Guid(bba8fefb863c97f4796e3ea4686cb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cannon anim/defaultcannon.anim using Guid(bba8fefb863c97f4796e3ea4686cb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0e08a1920e09db04c7cbf094c35484') in 0.007030 seconds 
+  Import took 0.010044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497940 seconds.
+  path: Assets/cannon anim/backrotate.anim
+  artifactKey: Guid(2b5199c3f27a11e4ea6c7e11ccb1f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cannon anim/backrotate.anim using Guid(2b5199c3f27a11e4ea6c7e11ccb1f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96057e6cbeadf231af194ca0c745e037') in 0.003999 seconds 
+  Import took 0.006826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.940146 seconds.
+  path: Assets/FreeGrassImport
+  artifactKey: Guid(0b579b7cad71435429913edb0f56edac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeGrassImport using Guid(0b579b7cad71435429913edb0f56edac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f07a8d9bc7b4da59a74e2a694cb54') in 0.004105 seconds 
+  Import took 0.006817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.216790 seconds.
+  path: Assets/materials
+  artifactKey: Guid(104c6e0df40c1654e87c9c6ca3a7f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials using Guid(104c6e0df40c1654e87c9c6ca3a7f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c1ccde1c658c552d21db5135fefbb9') in 0.003486 seconds 
+  Import took 0.006350 seconds .
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Target Prefab/Target.prefab
+  artifactKey: Guid(b0176b3af209dba40b11b125bc1c62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Target Prefab/Target.prefab using Guid(b0176b3af209dba40b11b125bc1c62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc66d13cf3ba4bf2a27dda46fdeebfe3') in 0.011093 seconds 
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Cannonball Assets/Prefabs/Particle System.prefab
+  artifactKey: Guid(7e84f15e12009bf42bed4c56516a8a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cannonball Assets/Prefabs/Particle System.prefab using Guid(7e84f15e12009bf42bed4c56516a8a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed40080887cd0121e2526b7938778a') in 0.011515 seconds 
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Target Prefab/TargetCopy.prefab
+  artifactKey: Guid(eafc9450a7070ed408e4d49d9842ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Target Prefab/TargetCopy.prefab using Guid(eafc9450a7070ed408e4d49d9842ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8104cd3536726a9388ae40167cbc0547') in 0.009773 seconds 
+  Import took 0.012381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.720723 seconds.
+  path: Assets/cannon anim/defaultcannon.anim
+  artifactKey: Guid(bba8fefb863c97f4796e3ea4686cb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cannon anim/defaultcannon.anim using Guid(bba8fefb863c97f4796e3ea4686cb6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0e08a1920e09db04c7cbf094c35484') in 0.007030 seconds 
+  Import took 0.010044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497940 seconds.
+  path: Assets/cannon anim/backrotate.anim
+  artifactKey: Guid(2b5199c3f27a11e4ea6c7e11ccb1f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cannon anim/backrotate.anim using Guid(2b5199c3f27a11e4ea6c7e11ccb1f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96057e6cbeadf231af194ca0c745e037') in 0.003999 seconds 
+  Import took 0.006826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.940146 seconds.
+  path: Assets/FreeGrassImport
+  artifactKey: Guid(0b579b7cad71435429913edb0f56edac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeGrassImport using Guid(0b579b7cad71435429913edb0f56edac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f07a8d9bc7b4da59a74e2a694cb54') in 0.004105 seconds 
+  Import took 0.006817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.216790 seconds.
+  path: Assets/materials
+  artifactKey: Guid(104c6e0df40c1654e87c9c6ca3a7f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials using Guid(104c6e0df40c1654e87c9c6ca3a7f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c1ccde1c658c552d21db5135fefbb9') in 0.003486 seconds 
+  Import took 0.006350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.159414 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(dbbce5610fe86004ba0ef51a3648e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(dbbce5610fe86004ba0ef51a3648e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cea455f12e834916fe79cdd577ba4b') in 0.003178 seconds 
+  Import took 0.005784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.363928 seconds.
+  path: Assets/cannon anim
+  artifactKey: Guid(37e50e839f137cc469ac52c1fbd4e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cannon anim using Guid(37e50e839f137cc469ac52c1fbd4e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1645eec7b28e45ead18f15376f762a') in 0.003283 seconds 
+  Import took 0.005926 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006495 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000286FF0ED010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286FA497050 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002850277E010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286F9DBB830 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000285022E5000 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286FEFF3030 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002850277E010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286FF057030 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000285022E5000 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286FEC54020 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028502C68AB0 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286FA1A5010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000286FF0ED010 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028502AB0080 doesn't match image C:\Users\doanc\OneDrive\Documents\GitHub\cannonball_game_ics161\cannonball game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (883ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.875000 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.037600 ms MarkObjects: 2.661900 ms  DeleteObjects: 0.022500 ms)
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 21.159414 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(dbbce5610fe86004ba0ef51a3648e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(dbbce5610fe86004ba0ef51a3648e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cea455f12e834916fe79cdd577ba4b') in 0.003178 seconds 
+  Import took 0.005784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.363928 seconds.
+  path: Assets/cannon anim
+  artifactKey: Guid(37e50e839f137cc469ac52c1fbd4e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cannon anim using Guid(37e50e839f137cc469ac52c1fbd4e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1645eec7b28e45ead18f15376f762a') in 0.003283 seconds 
+  Import took 0.005926 seconds .
+
+=======
+  Time since last request: 95.386255 seconds.
+  path: Assets/Cannon Materials/Prefabs/Prefabs/PlayerEdwin 1.prefab
+  artifactKey: Guid(6ed0049f37db9f9438a27f03d3f0f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cannon Materials/Prefabs/Prefabs/PlayerEdwin 1.prefab using Guid(6ed0049f37db9f9438a27f03d3f0f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b56f39ca1dba61f541e44ac227ee904') in 0.112711 seconds 
+  Import took 0.116098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.480340 seconds.
+  path: Assets/Cannon Materials/Prefabs/Prefabs/PlayerEdwin.prefab
+  artifactKey: Guid(04e21d577755bf2429952bc47e9ea95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cannon Materials/Prefabs/Prefabs/PlayerEdwin.prefab using Guid(04e21d577755bf2429952bc47e9ea95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061bdfe53afc5acb76dca07399d6cc8f') in 0.036808 seconds 
+  Import took 0.040070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.370834 seconds.
+  path: Assets/Cannon Materials/Prefabs/Prefabs/MainPlayer.prefab
+  artifactKey: Guid(6ed0049f37db9f9438a27f03d3f0f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cannon Materials/Prefabs/Prefabs/MainPlayer.prefab using Guid(6ed0049f37db9f9438a27f03d3f0f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea2ae59fa285bb601e592cb8fbb3e77') in 0.029429 seconds 
+  Import took 0.033025 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> Stashed changes
