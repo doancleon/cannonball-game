@@ -13,6 +13,10 @@ public class SpawnTargets : MonoBehaviour
     [SerializeField] private float cannonMass;
     [SerializeField] private Text powerText;
     [SerializeField] private float power;
+    [SerializeField] private Vector3 spawn;
+    [SerializeField] private Transform spawnt;
+
+
     public Explosion prefab;
     void Start()
     {
@@ -27,7 +31,7 @@ public class SpawnTargets : MonoBehaviour
             y = x*5.0f;
             for (var i = 0; i < 10; i++)
             {
-                Instantiate(prefab, new Vector3(i * 5.0f, y, 0), Quaternion.identity);
+                Instantiate(prefab, spawn+ new Vector3(i * 5.0f, y, 0), spawnt.rotation);
                 prefab.targetStrength = targetStrength;
                 prefab.tStrength = tStrength;
                 prefab.massText = massText;

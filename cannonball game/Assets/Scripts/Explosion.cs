@@ -24,7 +24,7 @@ public class Explosion : MonoBehaviour
     void Update()
     {
         Vector3 v = startingPosition;
-        v.z += distanceToCover * Mathf.Sin(Time.time * speed);
+        v.x += distanceToCover * Mathf.Sin(Time.time * speed);
         transform.position = v;
         if (tStrength <= 0)
         {

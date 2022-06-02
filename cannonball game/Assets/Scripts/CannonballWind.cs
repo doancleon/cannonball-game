@@ -85,10 +85,13 @@ public class CannonballWind : MonoBehaviour
         {
             foreach (Rigidbody rigidbody in CannonballsInWindZoneList)
             {
-                    Debug.Log("cannon");
+                if (rigidbody != null)
+                {
                     rigidbody.AddForce(windDirection * windStrength);
+                }
               
             }
+        
         }
     }
 

@@ -29,23 +29,11 @@ public class CannonballDestruction : MonoBehaviour
     private void OnTriggerEnter(Collider other) 
     {
         cannonballMass -= 10;
-        if(other.gameObject.tag == "Ground")
+        if(other.gameObject.tag == "Ground" || cannonballMass<=0)
         {
-            cannonballExplosion.transform.parent = null;
-            cannonballExplosion.gameObject.SetActive(true);
-            cannonballExplosion.Play();
-            gameObject.SetActive(false);
-            Destroy(gameObject, 1);
+            StartCoroutine("DestroyCannonball");
         }
-        if (cannonballMass <= 0)
-        {
-            cannonballExplosion.transform.parent = null;
-            cannonballExplosion.gameObject.SetActive(true);
-            cannonballExplosion.Play();
-            gameObject.SetActive(false);
-
-            Destroy(gameObject, 1);
-        }
+   
     }
 
     // Update is called once per frame
@@ -57,14 +45,14 @@ public class CannonballDestruction : MonoBehaviour
 
     //Enables the particles, then destroys the cannonball after 5 seconds.
     //After the cannonball is destroyed, the particles play and get destroyed after 1 second.
-    IEnumerator DestroyCannonball()
+    private IEnumerator DestroyCannonball()
     {
-        yield return new WaitForSeconds(5);
-        cannonballExplosion.transform.parent = null;
         cannonballExplosion.gameObject.SetActive(true);
         cannonballExplosion.Play();
+        yield return new WaitForSeconds(2);
+        Destroy(cannonballExplosion);
+
         Destroy(gameObject);
         yield return new WaitForSeconds(1);
-        Destroy(cannonballExplosion.gameObject);
     }
 }

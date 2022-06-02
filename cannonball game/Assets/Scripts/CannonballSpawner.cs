@@ -51,7 +51,7 @@ public class CannonballSpawner : MonoBehaviour
         powerText.text = "Power: " + cannonForce;
 
         //Sets the cannon angle to the text above slider
-        angleText.text = "Angle: " + cannonUpdwardForce;
+        //angleText.text = "Angle: " + cannonUpdwardForce;
     }
 
     //Spawns the cannonballs

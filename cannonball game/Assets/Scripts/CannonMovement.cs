@@ -11,7 +11,7 @@ public class CannonMovement : MonoBehaviour
     private bool turning;
     Vector3 moveDirection;
     Rigidbody rb;
-
+    public Transform rotate;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
