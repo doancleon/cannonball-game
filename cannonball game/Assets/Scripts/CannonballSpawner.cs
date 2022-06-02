@@ -15,6 +15,7 @@ public class CannonballSpawner : MonoBehaviour
 
     [SerializeField]
     private float cannonForce;
+    private float cannonFireForce;
 
     [SerializeField]
     private float cannonUpdwardForce;
@@ -27,6 +28,13 @@ public class CannonballSpawner : MonoBehaviour
 
     [SerializeField]
     private Text angleText;
+
+    public float cannonballMass;
+    [SerializeField] private float cannonMass;
+    public void AdjustMass(float newMass)
+    {
+        cannonballMass = newMass;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -59,8 +67,8 @@ public class CannonballSpawner : MonoBehaviour
             projectile = Instantiate(cannonball, spawnPoint.position, Quaternion.identity);
 
             projectileRb = projectile.GetComponent<Rigidbody>();
-
-            Vector3 forceToAdd = transform.forward * cannonForce + transform.up * cannonUpdwardForce;
+            cannonFireForce = cannonForce*9;
+            Vector3 forceToAdd = transform.forward * cannonFireForce + transform.up * cannonUpdwardForce;
 
             projectileRb.AddForce(forceToAdd, ForceMode.Impulse);
         }

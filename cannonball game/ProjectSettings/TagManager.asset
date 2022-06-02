@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - cannonball
+  - target
   layers:
   - Default
   - TransparentFX

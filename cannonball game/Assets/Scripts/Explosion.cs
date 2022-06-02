@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Explosion : MonoBehaviour
 {
     [SerializeField] float distanceToCover;
-    [SerializeField] float speed;
+    public float speed;
     private Vector3 startingPosition;
+
+    public Text targetStrength;
+    public float tStrength;
+
+    public Text massText;
+    public float cannonMass;
+    public Text powerText;
+    public float power;
 
     void Start()
     {
@@ -17,15 +26,19 @@ public class Explosion : MonoBehaviour
         Vector3 v = startingPosition;
         v.z += distanceToCover * Mathf.Sin(Time.time * speed);
         transform.position = v;
+        if (tStrength <= 0)
+        {
+            explode();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "cannonball")
         {
-            explode();
-        }
+            tStrength -= (power + cannonMass);
 
+        }
     }
 
     public void explode()

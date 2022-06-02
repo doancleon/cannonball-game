@@ -9,6 +9,9 @@ public class CannonballDestruction : MonoBehaviour
     [SerializeField]
     private ParticleSystem cannonballExplosion;
 
+    public float cannonballMass;
+
+
     private void Awake() 
     {
         cannonballExplosion.Pause();
@@ -17,19 +20,31 @@ public class CannonballDestruction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
-
+    public void AdjustMass(float newMass)
+    {
+        cannonballMass = newMass;
+    }
     //Breaks the cannonball when it hits the ground
     private void OnTriggerEnter(Collider other) 
     {
+        cannonballMass -= 10;
         if(other.gameObject.tag == "Ground")
         {
             cannonballExplosion.transform.parent = null;
             cannonballExplosion.gameObject.SetActive(true);
             cannonballExplosion.Play();
             gameObject.SetActive(false);
-            Destroy(cannonballExplosion.gameObject, 1);
+            Destroy(gameObject, 1);
+        }
+        if (cannonballMass <= 0)
+        {
+            cannonballExplosion.transform.parent = null;
+            cannonballExplosion.gameObject.SetActive(true);
+            cannonballExplosion.Play();
+            gameObject.SetActive(false);
+
+            Destroy(gameObject, 1);
         }
     }
 

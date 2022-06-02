@@ -7,6 +7,8 @@ public class CannonMovement : MonoBehaviour
     public Transform orientation;
     public float moveSpeed;
     float verticalInput;
+    public Animator cannon_animator;
+    private bool turning;
     Vector3 moveDirection;
     Rigidbody rb;
 
@@ -26,7 +28,31 @@ public class CannonMovement : MonoBehaviour
     private void MovePlayer()
     {
         moveDirection = orientation.forward * verticalInput;
-        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        if (cannon_animator.GetBool("isRotatingRight") == true || cannon_animator.GetBool("isRotatingLeft") == true)
+        {
+            turning = true;
+        }
+        else 
+        {
+            turning = false;
+        }
+        if (!turning && verticalInput > 0)
+        {
+            cannon_animator.SetBool("isMoving", true);
+        }
+        else if (!turning && verticalInput < 0)
+        {
+            cannon_animator.SetBool("isMovingBack", true);
+        }
+        else
+        {
+            cannon_animator.SetBool("isMoving", false);
+            cannon_animator.SetBool("isMovingBack", false);
+        }
+        if (!turning)
+        {
+            rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        }
     }
     void Update()
     {
