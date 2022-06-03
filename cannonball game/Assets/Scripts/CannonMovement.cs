@@ -21,6 +21,7 @@ public class CannonMovement : MonoBehaviour
     {
         verticalInput = Input.GetAxisRaw("Vertical");
     }
+
     void FixedUpdate()
     {
         MovePlayer();
@@ -57,6 +58,10 @@ public class CannonMovement : MonoBehaviour
     void Update()
     {
         MyInput();
+        if (Input.GetKeyDown(KeyCode.Escape))
 
-     }
+        {
+            Application.Quit();
+        }
+    }
 }

@@ -31,7 +31,7 @@ public class SpawnTargets : MonoBehaviour
             y = x*5.0f;
             for (var i = 0; i < 10; i++)
             {
-                Instantiate(prefab, spawn+ new Vector3(i * 5.0f, y, 0), spawnt.rotation);
+                Instantiate(prefab, spawn+ new Vector3(i * 5.0f, y, i*2.0f), spawnt.rotation);
                 prefab.targetStrength = targetStrength;
                 prefab.tStrength = tStrength;
                 prefab.massText = massText;
