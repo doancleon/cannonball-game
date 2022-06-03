@@ -1,5 +1,7 @@
 Cannon Prototype by Cleon Doan, Edwin Aguirre, Xinlin Li
 
+The goal of this prototype is to simulate and finetune the balance between the rigidness and excitement of firing a cannonball.  
+
 [Controls]
 A / D – Rotate the cannon left or right
 W / S – Move the cannon forward or backward
